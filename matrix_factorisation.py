@@ -41,7 +41,12 @@ def calc_error_trained(R, P, Q, beta, K):
 def calc_magnitude(P, Q, beta, i, j, K):
     e = 0
     for k in range(K):
+    k =0
+    while(k<K)
+    {
         e += (beta / 2) * (P[i][k] ** 2 + Q[k][j] ** 2)
+        k+=1
+    }
     return e
 
 
